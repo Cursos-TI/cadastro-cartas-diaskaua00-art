@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+      // Área para definição das variáveis para armazenar as propriedades das cidades
     // Carta A
     char estadoA[20] = "Ceara";
     char cidadeA[20] = "Fortaleza";
@@ -23,6 +24,8 @@ int main() {
 
     printf("=== SUPER TRUNFO ===\n");
 
+  // Área para entrada de dados
+
         printf("\n--- CARTA A ---\n");
         printf("Estado: %s\n", estadoA);
         printf("Cidade: %s\n", cidadeA);
@@ -33,6 +36,7 @@ int main() {
         printf("Densidade Populacional: %.3f" "hab/km²\n", densidadeA);
         printf("Pib per capita: %.2f" "reais\n", pibpercapitaA);
 
+  // Área para exibição dos dados da cidade
 
         printf("\n--- CARTA B ---\n");
         printf("Estado: %s\n", estadoB);
